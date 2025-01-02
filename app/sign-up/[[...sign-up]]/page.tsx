@@ -66,11 +66,11 @@ export default function SignUpPage() {
               }}
             />
 
-            <div className='mt-6 flex items-center justify-center space-x-2 text-xs text-[#5c3a2e] font-serif'>
-              <span>Powered by</span>
+            <div className='mt-6 flex items-center justify-center space-x-1 text-xs text-[#5c3a2e] font-serif'>
+              <span>Designed by</span>
               <div className='flex items-center space-x-1'>
                 <Sparkles className='h-3 w-3 text-[#8b4513]' />
-                <span className='text-[#5c3a2e]'>Advanced AI</span>
+                <span className='text-[#5c3a2e]'>Saint Salad</span>
               </div>
             </div>
           </div>

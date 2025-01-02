@@ -177,7 +177,7 @@ function ChatContainer() {
                 <div className='flex justify-center pt-2'>
                   <button
                     onClick={() => {
-                      const message = `Hi Jose, I'm ${user?.firstName}`;
+                      const message = `Kamusta Pepe? Ako si ${user?.firstName}`;
                       setInputMessage("");
                       setInputDisabled(false);
 
@@ -196,7 +196,7 @@ function ChatContainer() {
                       border border-amber-100/20 hover:border-amber-100/40
                       bg-black/30 hover:bg-black/40 transition-all duration-300 
                       backdrop-blur-sm shadow-lg shadow-black/20'>
-                    Hi Jose, I&apos;m {user?.firstName}
+                    Kamusta Pepe? Ako si {user?.firstName}
                   </button>
                 </div>
               </div>
